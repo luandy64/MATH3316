@@ -38,11 +38,11 @@ int main(){
     cout << "Running test1 and test2, should be the same" << endl;
     cout << "Test1: " << nest(test1, 5) << endl;
     cout << "Test2: " << nest(test2, 5) << endl;
-    cout << "Values should be "
+    cout << "Values should be 148" << endl;
 
     cout << endl;
 
-    cout << "Running test3" << endl;
+    cout << "Running test3: should see error message" << endl;
     try {
         cout << "Test3: " << nest(test3, 5) << endl;
     }
